@@ -1,0 +1,52 @@
+body{
+	background-color: black;
+	font-family: Arial;
+	color:white;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.menu ul li{
+	float:left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	margin-right: 3px;
+	position: relative;
+	float: left;
+	text-decoration: none;
+	color:white;
+}
+.menu ul li:hover{
+	display: block;
+	background-color: rgb(73, 131, 232);
+}
+.menu ul ul{
+	display: none;
+}
+.menu ul li:hover >ul{
+	display: block;
+}
+.bang ul{
+	margin-left: 200px;
+	top: 0px;
+	position: absolute;
+}
+
+i{
+	display: block;
+	
+	width: 200px;
+	height: 40px;
+	margin-top:10px; 
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
